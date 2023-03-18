@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 
-async function sendEmail(dest, message) {
+async function sendEmail(dest, message,name) {
    let transporter = nodemailer.createTransport({
       service: "gmail",
       //port: 587,
@@ -14,7 +14,7 @@ async function sendEmail(dest, message) {
     // send mail with defined transport object
     let info = await transporter.sendMail({
        
-      from: `"Fred Foo 👻" <${process.env.senderEmail}>`, // sender address
+      from: `"Fred Foo " <${process.env.senderEmail}>`, // sender address
       to: dest, // list of receivers
       subject: "Order Details ✔", // Subject line
       text: "You've an order of: ", // plain text body

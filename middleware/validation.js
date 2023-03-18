@@ -1,11 +1,13 @@
-const validationMethods = ["body", "params", "query", "headers"];
+const validationMethods = ["body","params","query","headers"];
 
 const validationFun = (schema) => {
   return (req, res, next) => {
     var validationErrorArr = [];
     validationMethods.forEach((key) => {
       if (schema[key]) {
-        const validateData = schema[key].validate(req[key], { abortEarly: false });
+        const validateData = schema[key].validate(req[key], {
+          abortEarly: false,
+        });
         if (validateData.error) {
           validationErrorArr.push(validateData.error.details);
         }

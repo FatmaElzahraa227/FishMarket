@@ -1,15 +1,13 @@
 
 const mongoose = require('mongoose');
-const  Joi  = require('joi');
-
 
 
 const messageSchema = new mongoose.Schema({
    
    customer_name: {type:String},
    email: {type:String},
-   phone_no: {type:Number},
-   order_body: {type:String, required:true},
+   phone_no: {type:String},
+   order_body: {type:String},
    
    
    
