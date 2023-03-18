@@ -1,0 +1,37 @@
+<nav class="navbar-expand-lg navbar-fixed-top nav">
+  <div
+    class="container-fluid w-100 d-flex justify-content-center align-items-center"
+  >
+    <div class="right d-flex justify-content-center align-items-center w-50">
+      <div class="logo">
+        <a routerLink="/products">
+          <img src="../../assets/images/logo.png" alt="" />
+        </a>
+      </div>
+      <div class="items">
+        <ul
+          class="navbar-nav d-flex justify-content-between align-items-center w-100"
+        >
+          <li
+            class="nav-item a1"
+            [ngClass]="{ active: activeTab == 'products' }"
+          >
+            <a class="nav-link" routerLink="/products">المنتجات</a>
+          </li>
+          <li class="nav-item a1" [ngClass]="{ active: activeTab == 'blog' }">
+            <a class="nav-link" routerLink="/blog">طرق تربيه الاسماك</a>
+          </li>
+          <li class="nav-item a2" [ngClass]="{ active: activeTab == 'about' }">
+            <a class="nav-link" routerLink="/about">من نحن؟</a>
+          </li>
+          <li
+            class="nav-item a3"
+            [ngClass]="{ active: activeTab == 'contact-us' }"
+          >
+            <a class="nav-link" routerLink="/contact-us">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

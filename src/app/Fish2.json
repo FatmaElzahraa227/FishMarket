@@ -1,0 +1,42 @@
+[
+    {
+    "id": 6,
+    "image": "../../assets/images/estakoza.jpg",
+    "title": "استاكوزا",
+    "lowPrice":"اقل سعر: 240",
+    "highPrice":"اعلي سعر: 280",
+    "price":"المتداول: 250"
+  },
+    {
+    "id": 7,
+    "image": "../../assets/images/gmbry.jpg",
+    "title": "جمبري",
+    "lowPrice":"اقل سعر: 130",
+    "highPrice":"اعلي سعر: 220",
+    "price":"المتداول: 160"
+  },
+    {
+    "id": 8,
+    "image": "../../assets/images/hamor.jpg",
+    "title": "سمك هامور ",
+    "lowPrice":"اقل سعر: 165",
+    "highPrice":"اعلي سعر: 230",
+    "price":"المتداول: 190"
+  },
+    {
+    "id": 9,
+    "image": "../../assets/images/macrel.jpg",
+    "title": "سمك ماكريل ",
+    "lowPrice":"اقل سعر: 55",
+    "highPrice":"اعلي سعر: 65",
+    "price":"المتداول: 60"
+  },
+    {
+    "id": 10,
+    "image": "../../assets/images/qaros.jpg",
+    "title": "سمك قاروص",
+    "lowPrice":"اقل سعر: 60",
+    "highPrice":"اعلي سعر: 190",
+    "price":"المتداول: 100"
+  }
+  ]

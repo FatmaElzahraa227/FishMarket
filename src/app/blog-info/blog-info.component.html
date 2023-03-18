@@ -1,0 +1,27 @@
+<app-navbar [activeTab]="'blog'"></app-navbar>
+<html>
+  <body>
+    <div
+      class="parent container-fluid d-flex flex-column justify-content-center align-items-start"
+    >
+      <div class="title">
+        <p>{{ title }}</p>
+      </div>
+      <div
+        class="container w-100 d-flex justify-content-start align-items-center"
+      >
+        <div class="right">
+          <div class="image">
+            <img [src]="image" alt="" />
+          </div>
+        </div>
+        <div class="left">
+          <div class="description">
+            <p>{{ description }}</p>
+            <a [href]="link">لمعرفة المزيد اضغط هنا</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

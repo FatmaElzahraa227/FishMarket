@@ -1,0 +1,75 @@
+*{
+    overflow: hidden;
+}
+.parent{
+    padding-top: 120px;
+    width: 80%;
+    
+    .title{
+        p{
+            font-size: 30px;
+            font-weight: 500;
+            color: #6098bd;
+            // padding-left: 10px;
+            margin-bottom: 30px;
+        }
+    }
+    .right{
+       .form{
+        margin-top: 10px;
+        height: 450px;
+        // margin-right: 20px;
+
+        input{
+            border-color: #6098bd;
+            width: 300px;
+            margin: 5px;
+            height: 50px;
+            margin-bottom: 20px;
+            &::placeholder{
+                color: #6098bd;
+            }
+        }
+        textarea{
+            width: 300px;
+            color: #595858;
+            border-color: #6098bd;
+            margin: 5px;
+            margin-bottom: 20px;
+            &::placeholder{
+                color: #6098bd;
+            }
+
+        }
+        button{
+            background-color: #6098bd;
+            color: white;
+            width: 100px;
+            margin: 5px;
+            margin-right: 5px;
+            padding-bottom: 15px;
+            box-shadow: 2px 2px 5px #6098bd;
+            border-color: #6098bd;
+            position: relative;
+            bottom: 0;
+            transition: bottom 0.1s;
+
+            &:hover{
+                border-color: #6098bd;
+                filter: brightness(107%);
+                bottom: 1px;
+            }
+        }
+        
+       }
+    }
+    .left{
+        
+        
+        .map{
+            width: 550px;
+            height: 400px;
+        }
+        
+    }
+}

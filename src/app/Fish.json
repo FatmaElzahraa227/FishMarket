@@ -1,0 +1,42 @@
+[
+  {
+  "id": 1,
+  "image": "../../assets/images/2rmot.jpg",
+  "title": "سمك قرموط",
+  "lowPrice":"اقل سعر: 20",
+  "highPrice":"اعلي سعر: 50",
+  "price":"المتداول: 30"
+},
+  {
+  "id": 2,
+  "image": "../../assets/images/7nsh neli.jpg",
+  "title": "سمك حنش نيلي",
+  "lowPrice":"اقل سعر: 160",
+  "highPrice":"اعلي سعر: 220",
+  "price":"المتداول: 170"
+},
+  {
+  "id": 3,
+  "image": "../../assets/images/bolti.jpg",
+  "title": "سمك بلطي ",
+  "lowPrice":"اقل سعر: 30",
+  "highPrice":"اعلي سعر: 50",
+  "price":"المتداول: 40"
+},
+  {
+  "id": 4,
+  "image": "../../assets/images/denis.jpg",
+  "title": "سمك دنيس ",
+  "lowPrice":"اقل سعر: 110",
+  "highPrice":"اعلي سعر: 160",
+  "price":"المتداول: 120"
+},
+  {
+  "id": 5,
+  "image": "../../assets/images/kaborya.jpg",
+  "title": "كابوريا",
+  "lowPrice":"اقل سعر: 90",
+  "highPrice":"اعلي سعر: 150",
+  "price":"المتداول: 120"
+}
+]
