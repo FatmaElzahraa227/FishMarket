@@ -4,6 +4,7 @@
 .parent{
     padding-top: 139px;
     width: 80%;
+    margin-bottom: 30px;
     
     .title{
         p{
@@ -16,31 +17,29 @@
     }
     .right{
         .image{
-            border-radius: 50px;
+            border-radius: 20px;
             width: fit-content;
             img{
-                border: #6098bd 4px solid;
                 width: 430px;
-                border-radius: 50px;
-                height: 330px;
+                height: 300px;
             }
         }
     }
     .left{
-        height: 330px;
+        height: 300px;
         padding: 20px;
         margin-right: 50px;
-        background-color: #f5f5f5;
-        border-radius: 50px;
+        border-radius: 20px;
         width: 50%;
         padding-right: 40px;
-        color: #595858;
-
+        color: rgb(0, 0, 66);
+        background-color: #f5f5f5;
+        
         
         .price{
-            margin-bottom: 10px;
+            margin-top: 10px;
             p{
-                font-size: 15px;
+                font-size: 16px;
                 padding: 0;
                 margin: 0;
                 margin-bottom: 10px;
