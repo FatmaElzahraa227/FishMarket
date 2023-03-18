@@ -16,16 +16,18 @@
     }
     .right{
        .form{
-        margin-top: 10px;
         height: 450px;
         // margin-right: 20px;
-
+        .in{
+            margin-bottom: 0px;
+            padding: 10px;
+        }
         input{
             border-color: #6098bd;
             width: 300px;
-            margin: 5px;
-            height: 50px;
-            margin-bottom: 20px;
+            // margin: 5px;
+            height: 45px;
+            // margin-bottom: 20px;
             &::placeholder{
                 color: #6098bd;
             }
@@ -34,8 +36,6 @@
             width: 300px;
             color: #595858;
             border-color: #6098bd;
-            margin: 5px;
-            margin-bottom: 20px;
             &::placeholder{
                 color: #6098bd;
             }
@@ -53,6 +53,7 @@
             position: relative;
             bottom: 0;
             transition: bottom 0.1s;
+            margin: 10px;
 
             &:hover{
                 border-color: #6098bd;
